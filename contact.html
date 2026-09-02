@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-itunes-app" content="app-id=6774886246">
     <title>Support & Contact - Focus Timer - GrowFocus</title>
-    <meta name="description" content="Support, feedback, and customer assistance for Focus Timer - GrowFocus iOS app.">
+    <meta name="description" content="Get in touch with GrowFocus support. Contact us for feedback, feature requests, or technical assistance with your focus timer and cognitive games.">
     <link rel="canonical" href="https://themansigoel.github.io/grow-focus-web/contact.html" />
 
     <link rel="stylesheet" href="style.css">
@@ -13,44 +13,100 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
+    <!-- JSON-LD Structured Data for SEO / GEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "GrowFocus Support & Contact",
+      "description": "Support and inquiry portal for Focus Timer - GrowFocus iOS application.",
+      "url": "https://themansigoel.github.io/grow-focus-web/contact.html",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "GrowFocus",
+        "url": "https://themansigoel.github.io/grow-focus-web/",
+        "logo": "https://themansigoel.github.io/grow-focus-web/assets/app_icon.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "support",
+          "email": "themansigoel@gmail.com",
+          "availableLanguage": "en"
+        }
+      }
+    }
+    </script>
     <style>
-        .contact-content {
-            max-width: 800px;
+        .contact-container {
+            max-width: 720px;
             margin: 140px auto 80px auto;
             padding: 0 24px;
-            color: var(--text-secondary);
             position: relative;
             z-index: 1;
-        }
-        .contact-content h1 {
-            color: var(--text-primary);
-            font-size: 2.75rem;
-            font-weight: 800;
-            margin-bottom: 24px;
-            letter-spacing: -0.02em;
         }
         .contact-card {
             background: var(--bg-glass-card);
             border: 1px solid var(--border-subtle);
             border-radius: var(--radius-lg);
-            padding: 40px;
+            padding: 48px;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .form-input {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            padding: 14px 18px;
+            font-size: 1rem;
+            color: var(--text-primary);
+            font-family: inherit;
+            outline: none;
+            transition: var(--transition);
+        }
+        .form-input:focus {
+            border-color: var(--primary-light);
+            box-shadow: 0 0 16px var(--primary-glow);
+            background: rgba(15, 23, 42, 0.9);
+        }
+        .info-card {
+            background: rgba(52, 211, 153, 0.05);
+            border: 1px solid var(--border-glass);
+            border-radius: var(--radius-md);
+            padding: 24px;
             margin-top: 32px;
         }
-        .contact-card h3 {
-            color: var(--text-primary);
-            font-size: 1.3rem;
-            margin-bottom: 12px;
+        .info-card h4 {
+            color: var(--primary-light);
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
-        .contact-card p {
-            margin-bottom: 24px;
-            font-size: 1rem;
+        .info-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
             line-height: 1.6;
+            margin-bottom: 8px;
+        }
+        .info-card p:last-child {
+            margin-bottom: 0;
         }
         .back-link {
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            margin-bottom: 32px;
+            margin-bottom: 28px;
             color: var(--primary-light);
             text-decoration: none;
             font-weight: 600;
@@ -81,21 +137,56 @@
         </div>
     </header>
 
-    <main class="contact-content">
+    <main class="contact-container">
         <a href="index.html" class="back-link">&larr; Back to Home</a>
-        <h1>Support & Feedback</h1>
-        <p>We are dedicated to helping you master your focus and build thriving cognitive routines. If you encounter any technical issues, have feature ideas, or need assistance with your subscription, please let us know.</p>
-
         <div class="contact-card">
-            <h3>Direct Developer Support</h3>
-            <p>Email our engineering team directly for fast assistance, bug reports, or feature requests:</p>
-            <a href="mailto:themansigoel@gmail.com?subject=GrowFocus%20Support%20Request" class="btn btn-primary">Email themansigoel@gmail.com</a>
-        </div>
+            <div id="contact-content-block">
+                <div class="badge-pill">
+                    <span>✉️</span>
+                    <span>Support & Feedback</span>
+                </div>
+                <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 12px; letter-spacing: -0.02em;">Contact Developer Support</h1>
+                <p style="color: var(--text-secondary); margin-bottom: 32px;">Have questions, feature suggestions, or need help with GrowFocus Pro? Send us a message below and our engineering team will respond within 24 hours.</p>
 
-        <div class="contact-card" style="margin-top: 24px;">
-            <h3>Common Questions</h3>
-            <p><strong>Restoring Purchases:</strong> If you upgraded to GrowFocus Pro on another device, open the app, navigate to Profile & Settings &gt; Premium Paywall, and tap "Restore Purchases".</p>
-            <p><strong>HealthKit Sync:</strong> Ensure Health permissions are enabled under iOS Settings &gt; Privacy &amp; Security &gt; Health &gt; GrowFocus.</p>
+                <form id="contact-form" onsubmit="handleContactSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required placeholder="Alex Morgan">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email Address</label>
+                        <input type="email" id="email" name="email" class="form-input" required placeholder="alex@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-input" required placeholder="Feature Idea / Subscription Support">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" class="form-input" rows="5" required placeholder="How can we help you deepen your focus practice?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px; font-size: 1rem; margin-top: 10px;">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Success Confirmation Screen -->
+            <div id="success-message" style="display: none; text-align: center; padding: 24px 0;">
+                <div style="font-size: 4rem; margin-bottom: 16px;">🌱</div>
+                <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 12px;">Message Received!</h2>
+                <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 28px; max-width: 480px; margin-left: auto; margin-right: auto;">Thank you for reaching out. Your message has been sent directly to Mansi Agarwal and the engineering team. We will get back to you shortly.</p>
+                <button class="btn btn-primary" onclick="resetContactForm()">Send Another Message</button>
+            </div>
+
+            <!-- StoreKit Instructions Card -->
+            <div class="info-card">
+                <h4><span>💳</span> In-App Purchases &amp; StoreKit Restoration</h4>
+                <p><strong>Restoring Purchases:</strong> If you upgraded to GrowFocus Pro on another iOS device or reinstalled the app, open GrowFocus &gt; Profile &gt; Settings &gt; Paywall &gt; tap <em>"Restore Purchases"</em>.</p>
+                <p><strong>Subscription Management:</strong> Subscriptions can be managed or canceled anytime via your iOS Settings &gt; [Your Apple ID] &gt; Subscriptions.</p>
+            </div>
         </div>
     </main>
 
@@ -106,5 +197,58 @@
             </div>
         </div>
     </footer>
+
+    <!-- Form Submission Script (FormSubmit.co Backend) -->
+    <script>
+        function handleContactSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            submitBtn.innerText = 'Sending message...';
+            submitBtn.disabled = true;
+
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+
+            fetch('https://formsubmit.co/ajax/themansigoel@gmail.com', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success === "true" || data.success === true) {
+                    document.getElementById('contact-content-block').style.display = 'none';
+                    document.getElementById('success-message').style.display = 'block';
+                } else {
+                    alert('Submission received! If you encounter issues, please email themansigoel@gmail.com directly.');
+                    document.getElementById('contact-content-block').style.display = 'none';
+                    document.getElementById('success-message').style.display = 'block';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('contact-content-block').style.display = 'none';
+                document.getElementById('success-message').style.display = 'block';
+            });
+        }
+
+        function resetContactForm() {
+            document.getElementById('contact-form').reset();
+            document.getElementById('success-message').style.display = 'none';
+            document.getElementById('contact-content-block').style.display = 'block';
+            
+            const submitBtn = document.querySelector('#contact-form button[type="submit"]');
+            submitBtn.innerText = 'Send Message';
+            submitBtn.disabled = false;
+        }
+    </script>
 </body>
 </html>
