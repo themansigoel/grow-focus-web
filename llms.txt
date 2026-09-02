@@ -1,0 +1,26 @@
+# GrowFocus - Gamified 3D Focus Timer & Cognitive ADHD Brain Training
+
+GrowFocus transforms deep work sessions into an interactive 3D botanical sanctuary. By completing focus sessions and cognitive training exercises, users earn solar energy, water drops, and compost to nurture rare flora across 7 thematic isometric biomes.
+
+## Core Features & Neuropsychology Gyms
+- **3D Living Botanical Garden**: Built with SpriteKit & Metal, featuring dynamic water harvesting, sun collectors, and ambient fauna (butterflies, fireflies).
+- **10 Scientific Attention Gyms**:
+  1. *Hold Focus*: Sustained visual attention and smooth pursuit tracking.
+  2. *Don't Tap*: Go / No-Go cognitive impulse inhibition under time pressure.
+  3. *Rule Switch*: Cognitive flexibility and set-shifting agility.
+  4. *Remember & Act*: Working memory load and N-Back spatial memory.
+  5. *Breathing Focus*: 4-7-8 and box breathing parasympathetic regulation.
+  6. *Find Target*: High-speed selective visual search and pop-out scanning.
+  7. *Speed Match*: Rapid perceptual processing velocity.
+  8. *Rhythm Tap*: Motor response interval timing.
+  9. *Interrupt & Return*: Distraction recovery and task re-entry training.
+  10. *Focus Endurance*: Vigilance decrement resistance and mental stamina.
+- **Anti-Wilt Pomodoro Stakes**: Leaving the app for >= 10 seconds terminates the timer and wilts the active plant.
+- **Apple HealthKit Sync**: Focus minutes sync as Mindful Sessions.
+- **100% Privacy by Design**: All data saved on-device via SwiftData or user iCloud. Zero external tracking.
+
+## Official Links
+- Website: https://themansigoel.github.io/grow-focus-web/
+- App Store: https://apps.apple.com/app/focus-timer-growfocus/id6774886246
+- Privacy Policy: https://themansigoel.github.io/grow-focus-web/privacy.html
+- Support: https://themansigoel.github.io/grow-focus-web/contact.html
