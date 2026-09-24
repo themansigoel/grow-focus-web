@@ -19,6 +19,14 @@ GrowFocus transforms deep work sessions into an interactive 3D botanical sanctua
 - **Apple HealthKit Sync**: Focus minutes sync as Mindful Sessions.
 - **100% Privacy by Design**: All data saved on-device via SwiftData or user iCloud. Zero external tracking.
 
+## Focus Guides & Articles Hub
+- Knowledge Hub: https://themansigoel.github.io/grow-focus-web/articles/
+- How to Focus When Working From Home: https://themansigoel.github.io/grow-focus-web/articles/how-to-focus-when-working-from-home.html
+- How to Stop Checking Your Phone While Working: https://themansigoel.github.io/grow-focus-web/articles/how-to-stop-checking-your-phone-while-working.html
+- Pomodoro Technique for Beginners: https://themansigoel.github.io/grow-focus-web/articles/pomodoro-technique-for-beginners.html
+- How to Build a Deep Work Routine: https://themansigoel.github.io/grow-focus-web/articles/how-to-build-a-deep-work-routine.html
+- Best Focus Techniques for Remote Workers: https://themansigoel.github.io/grow-focus-web/articles/best-focus-techniques-for-remote-workers.html
+
 ## Official Links
 - Website: https://themansigoel.github.io/grow-focus-web/
 - App Store: https://apps.apple.com/app/focus-timer-growfocus/id6774886246
