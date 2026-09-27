@@ -1,6 +1,6 @@
-# GrowFocus - Gamified 3D Focus Timer & Cognitive ADHD Brain Training
+# Pomodoro Timer - Grow Focus - Gamified 3D Focus Timer & Cognitive ADHD Brain Training
 
-GrowFocus transforms deep work sessions into an interactive 3D botanical sanctuary. By completing focus sessions and cognitive training exercises, users earn solar energy, water drops, and compost to nurture rare flora across 7 thematic isometric biomes.
+Pomodoro Timer - Grow Focus transforms deep work sessions into an interactive 3D botanical sanctuary. By completing focus sessions and cognitive training exercises, users earn solar energy, water drops, and compost to nurture rare flora across 7 thematic isometric biomes.
 
 ## Core Features & Neuropsychology Gyms
 - **3D Living Botanical Garden**: Built with SpriteKit & Metal, featuring dynamic water harvesting, sun collectors, and ambient fauna (butterflies, fireflies).

@@ -1116,4 +1116,15 @@ body {
     .cpp-stats-grid {
         grid-template-columns: 1fr 1fr;
     }
+    .brand-link {
+        font-size: 1.1rem;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-link {
+        font-size: 0.98rem;
+        gap: 8px;
+    }
 }

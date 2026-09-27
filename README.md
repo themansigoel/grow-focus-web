@@ -1,6 +1,6 @@
-# Focus Timer - GrowFocus Official Website
+# Pomodoro Timer - Grow Focus Official Website
 
-Official website for **Focus Timer - GrowFocus** (iOS App ID: `6774886246`), a gamified 3D focus timer and cognitive attention training app.
+Official website for **Pomodoro Timer - Grow Focus** (iOS App ID: `6774886246`), a gamified 3D focus timer and cognitive attention training app.
 
 - **Live URL**: [https://themansigoel.github.io/grow-focus-web/](https://themansigoel.github.io/grow-focus-web/)
 - **Privacy Policy**: [https://themansigoel.github.io/grow-focus-web/privacy.html](https://themansigoel.github.io/grow-focus-web/privacy.html)
